@@ -1,11 +1,17 @@
+import json
 from flask import Flask
 from analysis import hello
+
 app = Flask(__name__)
+
+# App roote
 @app.route('/')
-
+# Return results of analysis
 def create_app():
-    return hello()
-
+    data  = hello()
+    str = "{\"data\": \"" + data + "\"}"
+    return json.loads(str)
+# Run app
 if __name__ == "__main__":
     app.run()
     
