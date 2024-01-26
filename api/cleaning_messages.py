@@ -1,7 +1,7 @@
 import pandas as pd
 
 def get_data():# Read the text file
-    with open('chat.txt', 'r') as file:
+    with open('data/chat.txt', 'r') as file:
         lines = file.readlines()
         
     # Initialize empty lists for each column
@@ -29,6 +29,5 @@ def get_data():# Read the text file
 
     # Create a dataframe from the lists
     messages_df = pd.DataFrame({'date': dates, 'hour':hours,  'emitter': emitters, 'message': messages})
-
+    
     return messages_df
-
