@@ -7,6 +7,7 @@ app = Flask(__name__)
 # Allowing to use localhost:3000
 cors = CORS(app, origins=['http://localhost:3000'])
 app.config['CORS_HEADERS'] = 'Content-Type'
+
 # App route
 @app.route('/')
 
