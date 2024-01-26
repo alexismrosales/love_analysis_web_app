@@ -1,8 +1,10 @@
 #Files 
+venv/
+
 data/chat.txt
+requierments.txt
+
 
 #Cache
 __pycache__
 
-#Credentials
-love-analysis-flask-api-firebase-adminsdk-vbv1b-699f16cffe.json
