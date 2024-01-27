@@ -18,7 +18,7 @@ function HomeData()
     return {
         title: (
             <span>
-                AN<span className='text-7xl md:text-8xl'>Á</span>LISIS <br/>DE<br/> AMOR
+                ANALISIS <br/>DE<br/> AMOR
             </span>
         ),
         api_data: (

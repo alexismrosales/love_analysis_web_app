@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alexismrosales.github.io/love_analysis_web_app/",
   "name": "web",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -b webpage -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

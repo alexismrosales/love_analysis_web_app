@@ -10,9 +10,6 @@ function HomeItem(){
                     <span className={style.MainTitle}>{data.title}</span>
                     {data.svg_shape}
                 </div>
-                <div className={style.Shape}>
-                    
-                </div>
             </div>
         </section>
         
