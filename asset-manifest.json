@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/love_analysis_web_app/static/css/main.5992724d.css",
+    "main.js": "/love_analysis_web_app/static/js/main.38f2d18c.js",
+    "index.html": "/love_analysis_web_app/index.html",
+    "main.5992724d.css.map": "/love_analysis_web_app/static/css/main.5992724d.css.map",
+    "main.38f2d18c.js.map": "/love_analysis_web_app/static/js/main.38f2d18c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5992724d.css",
+    "static/js/main.38f2d18c.js"
+  ]
+}
