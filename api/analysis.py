@@ -3,4 +3,4 @@ import pandas as pd
 from cleaning_messages import get_data
 
 def hello():
-    return "Hello World!"
+    return "Hello World"
