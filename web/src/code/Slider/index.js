@@ -1,9 +1,12 @@
+import React from "react";
+import SliderItem from "./SliderItem";
+
 function Slider()
 {
     return (
-        <div>
-            <h1>Slider</h1>
-        </div>
+        <section>
+            <SliderItem />
+        </section>
     );
 }
 export default Slider;
