@@ -4,7 +4,7 @@
     h-screen
     w-screen
 }
-.Intro{
+.Animation{
     @apply
     sm:h-[30rem]
     flex
@@ -26,9 +26,101 @@
     text-gray-100;
     font-family: 'Single Day', cursive;
 }
-.Intro svg {
+.Animation svg {
     @apply
     w-full
     flex
 }
-
+.Intro {
+    @apply 
+    grid
+    grid-cols-8
+    gap-4
+}
+.IntroText{
+    @apply
+    md:col-start-2
+    md:col-span-4
+    col-start-1
+    col-span-8
+}
+/*Hearts props*/
+.HeartsContainer{
+    @apply
+    container
+    grid
+    grid-cols-4
+    gap-4
+    absolute
+    w-screen
+    h-screen
+}   
+.Heart{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 100vh;
+    z-index:9999;
+}
+.HeartCircle{
+    width:90px;
+    height:90px;
+    content:'';
+    background-color: crimson;
+    position: absolute;
+    margin: 35px 0px 0px 30px;
+    transform: rotate(-135deg);
+  }
+  
+  .HeartCircle::after{
+    width: 90px;
+    height: 90px;
+    content:'';
+    background-color: crimson;
+    border-radius: 45px;
+    position: absolute;
+    margin: 44px 0px;
+  }
+  
+  .HeartCircle::before{
+    width: 90px;
+    height: 90px;
+    content:'';
+    background-color: crimson;
+    position: absolute;
+    z-index: 1;
+    margin: 0px 44px;
+    border-radius: 45px;
+  }
+  
+  .HeartHalfMoon{
+    background: transparent;
+    height: 90px;
+    width: 45px;
+    position: absolute;
+    border-radius: 76px 0px 0px 0px;
+    margin: 82px 81px;
+    transform: rotate(45deg);
+  }
+  .HeartHalfMoon::before{
+    opacity: 0;
+    height: 90px;
+    width: 45px;
+    border-radius: 76px 0px 0px 0px;
+    content: '';
+    position: absolute;
+    margin: 45px -40px;
+    transform: rotate(78.5deg);
+  }
+  
+  .HeartHalfMoon::after{
+    opacity: 0;
+    height: 90px;
+    width: 45px;
+    border-radius: 0px 0px 0px 76px;
+    content: '';
+    margin: 3px 7px;
+    position: absolute;
+    transform: rotate(369deg);
+  }
+  

@@ -1,0 +1,90 @@
+.Heart1{
+  animation: 16s Linear-motion infinite, MoveLeft 23s infinite;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out; 
+}
+.Heart.Heart1 .HeartCircle{
+  animation: 12s colors infinite;
+  animation-delay: 0s;
+}
+.Heart.Heart1 .HeartCircle::before{
+  animation: 12s colors infinite;
+  animation-delay: 0s;
+}
+.Heart.Heart1 .HeartCircle::after{
+  animation: 12s colors infinite;
+  animation-delay: 0s;
+}
+
+.Heart2{
+  animation: 15s Linear-motion infinite, MoveLeft 23s infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out; 
+}
+.Heart.Heart2 .HeartCircle{
+  animation: 12s colors infinite;
+  animation-delay: 2s;
+}
+.Heart.Heart2 .HeartCircle::before{
+  animation: 12s colors infinite;
+  animation-delay: 2s;
+}
+.Heart.Heart2 .HeartCircle::after{
+  animation: 12s colors infinite;
+  animation-delay: 2s;
+}
+
+.Heart3{
+  animation: 13s Linear-motion infinite, MoveLeft 23s infinite;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out; 
+}
+.Heart.Heart3 .HeartCircle{
+  animation: 12s colors infinite;
+  animation-delay: 1s;
+}
+.Heart.Heart3 .HeartCircle::before{
+  animation: 12s colors infinite;
+  animation-delay: 1s;
+}
+.Heart.Heart3 .HeartCircle::after{
+  animation: 12s colors infinite;
+  animation-delay: 1s;
+}
+
+.Heart4{
+  animation: 17s Linear-motion infinite, MoveLeft 23s infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out; 
+}
+.Heart.Heart4 .HeartCircle{
+  animation: 12s colors infinite;
+  animation-delay: 3s;
+}
+.Heart.Heart4 .HeartCircle::before{
+  animation: 12s colors infinite;
+  animation-delay: 3s;
+}
+.Heart.Heart4 .HeartCircle::after{
+  animation: 12s colors infinite;
+  animation-delay: 3s;
+}
+@keyframes Linear-motion{
+  0%{ 
+  top:100vh;
+  }
+  100%{
+  top:-20vh;
+  }
+}
+@keyframes MoveLeft{
+  0%{
+    margin-left: 0%;
+  }
+  50%{
+    margin-left:20%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+}
