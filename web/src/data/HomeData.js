@@ -33,7 +33,10 @@ function HomeData()
             "Hola Ara!, hice esta página para mostrarte algunos datos que obtuve de la API de Love Analysis de nuestra conversaciones que hemos tenido en WhatsApp, espero que te guste. Hice un recuento de mensajes que considero especiales y algunos otros datos interesantes. Te amo mucho y espero poder verte pronto! <3."
         ],
         congrats: [
-            "Feliz San Valentín hermosa!"
+            "Feliz Día del Amor! Hermosaaa."
+        ],
+        content:[
+            "¿Cuántas veces nos decimos te amo?", "Top 3 emojis" , "¿Cuándo hablamos más? ", "Datos curiosos", "Para ti"
         ],
         text_sample: (
             <p>

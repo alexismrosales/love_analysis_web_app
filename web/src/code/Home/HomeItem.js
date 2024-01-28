@@ -27,12 +27,25 @@ function HomeItem(){
                 </div>
                 <div className={style.Intro}>
                     <div className={style.IntroText}>
-                        <span>{data.nice_words}</span>
+                        <p className={style.Text}>{data.nice_words}</p>
                         <br/>
-                        <span>{data.congrats}</span>
+                        <p className={style.TextCongrats}>{data.congrats}</p>
                     </div>
                     <div className={style.IntroList}>
-
+                        <ul>
+                            <li>
+                                {data.content[0]}
+                            </li>
+                            <li>
+                                {data.content[1]}
+                            </li>
+                            <li>
+                                {data.content[2]}
+                            </li>
+                            <li>
+                                {data.content[3]}
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

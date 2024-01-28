@@ -39,10 +39,31 @@
 }
 .IntroText{
     @apply
+    md:pt-8
+    p-10
+    md:p-2
     md:col-start-2
     md:col-span-4
     col-start-1
     col-span-8
+}
+.Text{
+    @apply
+    text-xl
+    text-justify
+    font-bold
+}
+.TextCongrats{
+    @apply
+    text-4xl
+    text-center
+    font-bold
+    text-rose-600;
+    font-family: 'Single Day', cursive;
+}
+.IntroList{
+    @apply
+    md:pt-8
 }
 /*Hearts props*/
 .HeartsContainer{
