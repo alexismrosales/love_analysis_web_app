@@ -1,0 +1,13 @@
+.LoveInfo{
+    @apply
+    bg-gray-100
+    md:h-[70vh]
+    h-auto
+    w-screen
+    grid
+    grid-cols-2
+}
+.Animation{
+    @apply
+    bg-rose-500
+}

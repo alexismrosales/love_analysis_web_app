@@ -21,6 +21,8 @@
 .DivContainer{
     @apply 
     p-5  
-    bg-pink-800
+    bg-gradient-to-r
+    from-rose-800
+    to-pink-600
 }
 

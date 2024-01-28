@@ -10,16 +10,20 @@
     flex
     flex-col
     items-center
-    bg-pink-800
+    bg-gradient-to-r
+    from-rose-800
+    to-pink-600
     overflow-hidden
 }
 
 .MainTitle{
     @apply
     max-[390px]:text-6xl
+
     p-[3.5rem]
-    text-8xl
     md:p-[0rem]
+
+    text-8xl
     md:text-9xl
     text-center
     font-extrabold
@@ -34,18 +38,19 @@
 .Intro {
     @apply 
     grid
-    grid-cols-8
+    grid-cols-9
     gap-4
 }
 .IntroText{
     @apply
-    md:pt-8
+    md:pt-6
     p-10
     md:p-2
+
     md:col-start-2
     md:col-span-4
     col-start-1
-    col-span-8
+    col-span-9
 }
 .Text{
     @apply
@@ -59,26 +64,58 @@
     text-center
     font-bold
     text-rose-600;
+
+    
     font-family: 'Single Day', cursive;
 }
 .IntroList{
     @apply
     md:col-span-3
     col-start-1
-    col-span-8
+    col-span-9
+    md:pb-10;
+    z-index:9996;
+}
+.IntroListText{
+    @apply
+    text-4xl
+    text-justify
+    text-rose-600
+    font-bold
+    flex
+    justify-center
+    items-center;
+    font-family: 'Diphylleia', serif;
 }
 .List{
     @apply
     grid
     grid-rows-4
-    bg-pink-600
+
+    bg-gradient-to-r
+    from-pink-600
+    to-rose-800
+
+    text-white
+    
     ;
 }
 .Item{
     @apply
     h-[3rem]
+    hover:bg-white
+    hover:ring-rose-600
+    hover:text-rose-600
+
+    flex
+    justify-center
+    items-center
+
+    font-bold
+    text-xl;
+    font-family: 'Diphylleia', serif;
     
-    text-center
+
 }
 
 /*Hearts props*/
@@ -97,7 +134,7 @@
     height: 150px;
     position: relative;
     top: 100vh;
-    z-index:9999;
+    z-index:9995;
 }
 .HeartCircle{
     width:90px;

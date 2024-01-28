@@ -1,3 +1,4 @@
 body{
-    @apply bg-pink-800
+    @apply
+    bg-gray-100
 }

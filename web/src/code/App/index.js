@@ -1,6 +1,6 @@
 import Header from '../Header';
 import Home from '../Home';
-import Cards from '../Cards';
+import LoveInfo from '../LoveInfo';
 
 import  './Styles.css';
 
@@ -9,7 +9,7 @@ function App() {
     <Header/>,
     <main>
       <Home/>
-      <Cards/>
+      <LoveInfo/>
     </main>
   ]);
 }
