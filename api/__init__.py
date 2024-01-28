@@ -5,7 +5,7 @@ from analysis import hello
 app = Flask(__name__)
 
 # Allowing to use localhost:3000
-cors = CORS(app, origins=['http://localhost:3000'])
+cors = CORS(app, origins=['http://localhost:3000', 'https://alexismrosales.github.io/love_analysis_web_app/'])
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 # App route
