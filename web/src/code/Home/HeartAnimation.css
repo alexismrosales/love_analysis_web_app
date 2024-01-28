@@ -52,6 +52,11 @@
   animation-delay: 1s;
 }
 
+.Heart.Heart4{
+  @apply 
+  md:block
+  hidden
+}
 .Heart4{
   animation: 17s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 1s;
