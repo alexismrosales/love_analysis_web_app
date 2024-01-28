@@ -11,7 +11,7 @@ function LoveInfoItem(){
         <div className={style.LoveInfo}>
             
             <div className={style.Animation}>
-            <h1>{data.api_data}</h1>
+                <p className="style.MainTitle">{data.api_data}</p>
             </div>
             <div>XD</div>
         </div>

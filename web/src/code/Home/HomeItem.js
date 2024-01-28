@@ -21,7 +21,7 @@ function HomeItem(){
     return (
         <div className={style.Home}>
             <div className={style.Animation}>
-                <span className={style.MainTitle}>{data.title}</span>
+                <p className={style.MainTitle}>{data.title}</p>
                 {data.svg_shape}
                 <div className={style.HeartsContainer}>
                     {hearts.map((item) => (
