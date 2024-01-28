@@ -1,7 +1,7 @@
 .Home{
     @apply
     bg-gray-100
-    h-screen
+    h-auto
     w-screen
 }
 .Animation{
@@ -63,8 +63,24 @@
 }
 .IntroList{
     @apply
-    md:pt-8
+    md:col-span-3
+    col-start-1
+    col-span-8
 }
+.List{
+    @apply
+    grid
+    grid-rows-4
+    bg-pink-600
+    ;
+}
+.Item{
+    @apply
+    h-[3rem]
+    
+    text-center
+}
+
 /*Hearts props*/
 .HeartsContainer{
     @apply

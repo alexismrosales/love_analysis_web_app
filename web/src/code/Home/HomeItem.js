@@ -32,17 +32,18 @@ function HomeItem(){
                         <p className={style.TextCongrats}>{data.congrats}</p>
                     </div>
                     <div className={style.IntroList}>
-                        <ul>
-                            <li>
+                        <p>Contenido</p>
+                        <ul className={style.List}>
+                            <li className={style.Item}>
                                 {data.content[0]}
                             </li>
-                            <li>
+                            <li className={style.Item}>
                                 {data.content[1]}
                             </li>
-                            <li>
+                            <li className={style.Item}>
                                 {data.content[2]}
                             </li>
-                            <li>
+                            <li className={style.Item}>
                                 {data.content[3]}
                             </li>
                         </ul>
