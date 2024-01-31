@@ -134,7 +134,7 @@
     height: 150px;
     position: relative;
     top: 100vh;
-    z-index:9995;
+    z-index:1;
 }
 .HeartCircle{
     width:90px;

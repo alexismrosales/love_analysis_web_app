@@ -6,7 +6,7 @@ import HomeData from '../../data/HomeData';
 import style from "./Styles.module.css";
 import './HeartAnimation.css'
 
-const { smoothScroll } = require("./scripts/HomeScript");
+const { smoothScroll } = require("../scripts/smoothScroll");
 
 
 function HomeItem(){

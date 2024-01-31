@@ -1,6 +1,7 @@
 // scroll.js
 function smoothScroll(classSelector) {
     const scrollLinks = document.querySelectorAll(classSelector);
+
     scrollLinks.forEach((link) => {
       link.addEventListener("click", (event) => {
         event.preventDefault();
@@ -11,6 +12,4 @@ function smoothScroll(classSelector) {
     });
   }
 
-module.exports = {
-    smoothScroll
-};
+module.exports = {smoothScroll};

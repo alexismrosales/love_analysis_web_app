@@ -1,5 +1,5 @@
 .Heart1{
-  animation: 16s Linear-motion infinite, MoveLeft 23s infinite;
+  animation: 8s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 0;
   animation-timing-function: ease-in-out; 
 }
@@ -17,7 +17,7 @@
 }
 
 .Heart2{
-  animation: 15s Linear-motion infinite, MoveLeft 23s infinite;
+  animation: 7s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 2s;
   animation-timing-function: ease-in-out; 
 }
@@ -35,7 +35,7 @@
 }
 
 .Heart3{
-  animation: 13s Linear-motion infinite, MoveLeft 23s infinite;
+  animation: 9s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 3s;
   animation-timing-function: ease-in-out; 
 }
@@ -58,7 +58,7 @@
   hidden
 }
 .Heart4{
-  animation: 17s Linear-motion infinite, MoveLeft 23s infinite;
+  animation: 10s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 1s;
   animation-timing-function: ease-in-out; 
 }
