@@ -11,6 +11,6 @@ function CounterAnimation({limit}) {
           </div>
         )}
       </VisibilitySensor>
-  );
+  );  
 }
 export default CounterAnimation;

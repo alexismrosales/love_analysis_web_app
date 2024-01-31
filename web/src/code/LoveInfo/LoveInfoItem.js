@@ -23,8 +23,13 @@ function LoveInfoItem(){
                 </div>   
             </div>
             <div className={style.Info}>
-                <p className={style.SubTitle}>¿Sabias que?</p>
-                
+                <p className={style.SubTitle}>También nos hemos dicho mucho otras palabras bonitas como: </p>
+                <ul className={style.List}>
+                    <li style={style.ElementL}>"{data.key_words[0]}" unas {tempData} veces</li>
+                    <li style={style.ElementR}>"{data.key_words[1]}" unas {tempData} veces</li>
+                    <li style={style.ElementL}>"{data.key_words[2]}" unas {tempData} veces </li>    
+                    <li style={style.ElementR}>"{data.key_words[3]}" unas {tempData} veces </li>    
+                </ul>
             </div>
         </div>
     )

@@ -17,6 +17,12 @@ function LoveInfoData()
     }, []);
     //Returning data
     return {
+        key_words:[
+            "Te quiero",
+            "Te extraño",
+            "Guap@",
+            "T.Q.M"
+        ],
         api_data: [
             value
         ],
