@@ -1,0 +1,9 @@
+.TopEmojis{
+    @apply
+    bg-gray-100
+    md:h-[70vh]
+    h-auto
+    w-auto
+    grid
+    grid-cols-2;
+}

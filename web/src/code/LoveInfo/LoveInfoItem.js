@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import LoveInfoData from '../../data/LoveInfoData';
 
-import CounterAnimation from "../scripts/counterAnimation";
+import CounterAnimation from "../_scripts/counterAnimation";
 
 
 import style from "./Styles.module.css";

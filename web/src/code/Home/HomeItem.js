@@ -6,7 +6,7 @@ import HomeData from '../../data/HomeData';
 import style from "./Styles.module.css";
 import './HeartAnimation.css'
 
-const { smoothScroll } = require("../scripts/smoothScroll");
+const { smoothScroll } = require("../_scripts/smoothScroll");
 
 
 function HomeItem(){
@@ -42,7 +42,7 @@ function HomeItem(){
                     <p className={style.IntroListText}>Contenido</p>
                     <ul className={style.List}>
                         <li className={style.Item}><a href="#LoveInfo" className="scroll-link">{data.content[0]}</a></li>
-                        <li className={style.Item}>{data.content[1]}</li>
+                        <li className={style.Item}><a href="#TopEmojis" className="scroll-link">{data.content[1]}</a></li>
                         <li className={style.Item}>{data.content[2]}</li>
                         <li className={style.Item}>{data.content[3]}</li>
                     </ul>
