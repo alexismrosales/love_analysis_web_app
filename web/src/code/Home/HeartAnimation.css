@@ -17,7 +17,7 @@
 }
 
 .Heart2{
-  animation: 7s Linear-motion infinite, MoveLeft 23s infinite;
+  animation: 6s Linear-motion infinite, MoveLeft 23s infinite;
   animation-delay: 2s;
   animation-timing-function: ease-in-out; 
 }
