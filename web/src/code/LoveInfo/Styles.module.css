@@ -3,7 +3,7 @@
     bg-gray-100
     md:h-[70vh]
     h-auto
-    w-screen
+    w-auto
     grid
     grid-cols-2;
     
@@ -15,22 +15,7 @@
     bg-rose-500;
     z-index:9996;
 }
-.MainTitle{
-    @apply
-    max-[390px]:text-6xl
-    text-5xl
-    md:text-6xl
-    text-center
-    font-extrabold
-    text-rose-500;
-    font-family: 'Single Day', cursive; 
-}
-.Counter{
-    @apply
-    text-6xl
-    md:text-7xl
-
-}
+/*Heart BG*/
 .SVG_bg{
     @apply
     h-[65vh]
@@ -45,19 +30,64 @@
     background-position: center;
    
 }
+.MainTitle{
+    @apply
+    max-[390px]:text-6xl
+    text-5xl
+    text-center
+    font-extrabold
+    text-rose-500;
+    font-family: 'Single Day', cursive; 
+}
+.Counter{
+    @apply
+    text-6xl
+    md:text-7xl
+}
+
 .Info{
     @apply
     col-span-2
     md:col-span-1
     bg-gray-100;
+    
     z-index:9996;
 }
 .SubTitle{
     @apply
     text-center
-    pt-[5rem]
+    pt-[4rem]
+    pb-[4rem]
     text-rose-500
-    text-3xl
+    text-4xl
     font-bold;
     font-family: 'Diphylleia', serif;
+}
+.List{
+    @apply
+    text-lg
+    lg:text-xl
+}
+.KeyWords
+{
+    @apply
+   
+    text-rose-500;
+    font-family: 'Diphylleia', serif;
+}
+.ElementL{
+    @apply
+    flex
+    pb-[3rem]
+    font-bold
+    ml-4
+}
+.ElementR{
+    @apply
+    pb-[3rem]
+    mr-4
+    flex
+    font-bold
+    flex
+    justify-end
 }
