@@ -28,6 +28,6 @@ def get_data():# Read the text file
             messages.append(message)
 
     # Create a dataframe from the lists
-    messages_df = pd.DataFrame({'date': dates, 'hour':hours,  'emitter': emitters, 'message': messages})
+    messages_df = pd.DataFrame({'date': dates, 'hour':hours,  'emitter': emitters, 'messages': messages})
     
     return messages_df

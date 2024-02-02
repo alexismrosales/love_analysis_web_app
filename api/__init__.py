@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import CORS, cross_origin
 
-from analysis import hello
+from analysis import data_analysis
 
 app = Flask(__name__)
 
@@ -13,7 +13,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin()
 # Return results of analysis
 def create_app():
-    data  = hello()
+    data  = data_analysis()
     # Return of json file with data
     return jsonify(data=data)
 
