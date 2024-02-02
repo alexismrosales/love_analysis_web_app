@@ -25,10 +25,10 @@ function LoveInfoItem(){
             <div className={style.Info}>
                 <p className={style.SubTitle}>También nos hemos dicho mucho otras palabras bonitas como: </p>
                 <ul className={style.List}>
-                    <li className={style.ElementL}><span className={style.KeyWords}>"{data.key_words[0]}"</span> &nbsp; unas {tempData} veces</li>
-                    <li className={style.ElementR}><span className={style.KeyWords}>"{data.key_words[1]}"</span> &nbsp; unas {tempData} veces</li>
-                    <li className={style.ElementL}><span className={style.KeyWords}>"{data.key_words[2]}"</span> &nbsp; unas {tempData} veces </li>    
-                    <li className={style.ElementR}><span className={style.KeyWords}>"{data.key_words[3]}"</span> &nbsp; unas {tempData} veces </li>    
+                    <li className={style.ElementL}><span className={style.KeyWords}>"{data.key_words[0]}"</span> &nbsp; unas {tempData} veces.</li>
+                    <li className={style.ElementR}><span className={style.KeyWords}>"{data.key_words[1]}"</span> &nbsp; unas {tempData} veces.</li>
+                    <li className={style.ElementL}><span className={style.KeyWords}>"{data.key_words[2]}"</span> &nbsp; unas {tempData} veces.</li>    
+                    <li className={style.ElementR}><span className={style.KeyWords}>"{data.key_words[3]}"</span> &nbsp; unas {tempData} veces.</li>    
                 </ul>
             </div>
         </div>
