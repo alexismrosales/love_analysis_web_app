@@ -5,10 +5,11 @@ def get_data():# Read the text file
         lines = file.readlines()
         
     # Initialize empty lists for each column
-    dates = []
-    hours = []
+    times = []
     emitters = []
     messages = []
+    emitter1 = ''
+    emitter2 = ''
 
     # Process each line in the text file
     for line in lines:
@@ -17,17 +18,26 @@ def get_data():# Read the text file
         if len(parts) >= 2:
             # Save data into v  ariables
             date = parts[0].split(',')[0]
+            
             hour = parts[0].split(',')[1]
+            hour = hour.strip().replace("\u202F", " ") # Delete special character
+
+            time = pd.to_datetime(date + ' ' + hour)
+            
             emitter = parts[1].split(':')[0]
+            if emitter1 == '':
+                emitter1 = emitter
+            if emitter2 == '' and emitter1 != emitter:
+                emitter2 = emitter
+                 
             message = ':'.join(parts[1].split(':')[1:]).strip()
             
             # Append the values to the respective lists
-            dates.append(date)
-            hours.append(hour)
+            times.append(time)
             emitters.append(emitter)
             messages.append(message)
 
     # Create a dataframe from the lists
-    messages_df = pd.DataFrame({'date': dates, 'hour':hours,  'emitter': emitters, 'messages': messages})
+    messages_df = pd.DataFrame({'time': times,  'emitter': emitters, 'messages': messages})
     
-    return messages_df
+    return [messages_df, emitter1, emitter2]
