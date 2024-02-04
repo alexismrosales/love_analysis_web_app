@@ -1,4 +1,5 @@
 import numpy as np
+import requests_cache as rq
 
 from flask import Flask, jsonify
 from flask_cors import CORS, cross_origin
@@ -10,12 +11,19 @@ app = Flask(__name__)
 cors = CORS(app, origins=['http://localhost:3000', 'https://alexismrosales.github.io'])
 app.config['CORS_HEADERS'] = 'Content-Type'
 
+rq.install_cache('data_cache', backend='sqlite', expire_after=180)
+
 # App route
 @app.route('/')
 @cross_origin()
 # Return results of analysis
 def create_app():
-    data  = data_analysis()
+    if rq.get_cache().has_url('data'):
+        data = rq.get_cache().get_response('data').json()
+    else:
+        data  = data_analysis()
+        rq.get_cache().add('data', data)
+        
     print("Data obtained succesfully...\n")
     data = recursive_map(data)
     print("Data converted succesfully\n")
