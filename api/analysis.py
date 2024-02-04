@@ -1,5 +1,6 @@
 import pandas as pd
 import emoji as emj
+import functools
 
 from cleaning_messages import get_data
 
@@ -11,6 +12,7 @@ messages_df = data[0]
 emitter1 = data[1]
 emitter2 = data[2]
 
+@functools.lru_cache()
 # Main function, will return all dictionaries
 def data_analysis():
     return {'cute_words' : cute_words_count(), 'top_emojis' : top_emojis(), "various_data" : various_data()}
