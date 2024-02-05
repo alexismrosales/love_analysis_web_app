@@ -21,8 +21,8 @@ def data_analysis():
 def cute_words_count():
     data_cute_words = {}
     # List with the words to count
-    words = [['amo', 'total_lovesyou'], ['te quiero| tqm', 'total_appreciateyou'], ['bonita | bonito', 'total_pretties'],
-             ['preciosa | precioso', 'total_beatiful']]
+    words = [['amo', 'total_lovesyou'], ['quiero', 'total_appreciateyou'], ['bonita | bonito', 'total_pretties'],
+             ['preciosa | precioso', 'total_beatiful'], ['extraño','total_missyou']]
     
     # Loop to count the number of times the words are used and save them in a dictionary
     for word in words:
