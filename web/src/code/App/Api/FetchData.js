@@ -5,7 +5,7 @@ async function FetchData() {
         //Wait until getData() is solved
         const response = await getData();
         // Saving data
-        const data = response.data.data;
+        const data = response.data;
         // Return data
         return data;
     } catch (error) {
