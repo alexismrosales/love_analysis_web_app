@@ -14,15 +14,25 @@
 .Title{
     @apply
     text-6xl
-    text-gray-100
+    text-red-800
     font-bold
     text-center
-    pt-[2rem];
+    pt-[2rem]
+    drop-shadow-xl;
     font-family: 'Single Day', cursive;
 }
 .TopText{
     @apply
-    text-5xl
+    pb-[4rem]
+    text-4xl
+    text-gray-100;
+    font-family: 'Diphylleia', serif;
+}
+.TopTitle{
+    @apply
+    text-7xl
+    text-red-700;
+    font-family: 'Single Day', cursive;
 }
 .TopOne{
     @apply
@@ -34,29 +44,26 @@
     text-center
     mt-5
 }
-.TopOneEmoji{
-    @apply
-    text-[15rem]
-}
 
+.TopEmoji{
+    @apply
+    text-[12rem]
+    drop-shadow-xl
+}
 .TopTwo{
     @apply
     order-2
     col-span-3
     md:col-span-1
     md:order-1
-    text-3xl
     font-bold
     text-center
-    pt-6
 }
 .TopThree{
     @apply
     order-3
     col-span-3
     md:col-span-1
-    text-4xl
     font-bold
-    text-center
-    mt-5
+    text-center 
 }

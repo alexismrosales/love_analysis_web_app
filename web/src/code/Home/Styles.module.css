@@ -27,7 +27,8 @@
     md:text-9xl
     text-center
     font-extrabold
-    text-gray-100;
+    text-gray-100
+    drop-shadow-xl;
     font-family: 'Single Day', cursive;
 }
 .Animation svg {
