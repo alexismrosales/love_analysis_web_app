@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 function HomeData()
 {
@@ -21,7 +21,7 @@ function HomeData()
             "Feliz Dia del Amor! Hermosaaa."
         ],
         content:[
-            "¿Cuántas veces nos decimos te amo?", "Top 3 emojis" , "¿Cuándo hablamos más? ", "Datos curiosos", "Para ti"
+            "¿Cuántas veces nos decimos te amo?", "Top 3 emojis" , "¿Cuándo es que hablamos más? ", "Para ti"
         ]
     }
 }

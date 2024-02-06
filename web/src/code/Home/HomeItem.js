@@ -43,7 +43,7 @@ function HomeItem(){
                     <ul className={style.List}>
                         <li className={style.Item}><a href="#LoveInfo" className="scroll-link">{data.content[0]}</a></li>
                         <li className={style.Item}><a href="#TopEmojis" className="scroll-link">{data.content[1]}</a></li>
-                        <li className={style.Item}>{data.content[2]}</li>
+                        <li className={style.Item}><a href="#TalkInfo" className="scroll-link">{data.content[2]}</a></li>
                         <li className={style.Item}>{data.content[3]}</li>
                     </ul>
                 </div>
