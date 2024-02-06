@@ -43,7 +43,7 @@ function TopEmojisItem(){
                             
                         </thead>
                         {top.map((item) => (
-                            <tr>
+                            <tr className="text-xl">
                                 <td>{item+1}</td>
                                 <th className="px-6 py-4">
                                     <span className={style.OtherEmoji}><Twemoji text={data.topEmojis[item] ? data.topEmojis[item].emoji : []} onlyEmojiClassName="emoji-span" /></span>
