@@ -32,7 +32,7 @@ function TopEmojisData(){
         ],
         questions : [
             "¿Qué crees que dicen de nosotros?",
-            "¿Y qué otros emojis usamos más?"
+            "¿Y qué otros emojis más usamos?"
         ]
     }
 }
