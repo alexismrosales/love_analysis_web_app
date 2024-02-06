@@ -1,6 +1,6 @@
 .TopEmojis{
     @apply
-    bg-orange-900
+    bg-rose-900
     h-auto
     w-auto
     
@@ -14,7 +14,7 @@
 .Title{
     @apply
     text-8xl
-    text-orange-500
+    text-red-500
     font-bold
     text-center
     pt-[2rem]
@@ -35,7 +35,7 @@
     text-3xl
     mx-2
     text-center
-    text-orange-500
+    text-red-500
     font-bold;
     font-family: 'Diphylleia', serif;
 }
@@ -49,7 +49,7 @@
 .TopTitle{
     @apply
     text-7xl
-    text-orange-500;
+    text-red-500;
     font-family: 'Single Day', cursive;
 }
 .TopOne{
@@ -60,12 +60,16 @@
     md:order-2
     font-bold
     text-center
-    mt-5
+    
 }
-
+.TopEmojiFirst{
+    @apply
+    text-[11rem]
+    drop-shadow-xl
+}
 .TopEmoji{
     @apply
-    text-[12rem]
+    text-[10rem]
     drop-shadow-xl
 }
 .TopTwo{
@@ -76,7 +80,7 @@
     md:order-1
     font-bold
     text-center
-    mt-[3rem]
+    mt-[1rem]
 }
 .TopThree{
     @apply
@@ -85,7 +89,7 @@
     md:col-span-1
     font-bold
     text-center 
-    mt-[3rem]
+    mt-[1rem]
 }
 .divTable
 {

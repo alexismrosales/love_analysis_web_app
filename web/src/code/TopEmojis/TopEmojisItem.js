@@ -28,7 +28,7 @@ function TopEmojisItem(){
                 </div>
                 <div className={style.TopOne}>
                     <span className={style.TopTitle}>#1</span><br/>
-                    <span className={style.TopEmoji}> <Twemoji svg text={data.topEmojis[0] ? data.topEmojis[0].emoji : []} onlyEmojiClassName="emoji-span" /></span>
+                    <span className={style.TopEmojiFirst}> <Twemoji svg text={data.topEmojis[0] ? data.topEmojis[0].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                      
                     <p className={style.TopText}>Se uso <br/><span className={style.Counter1}> <br/><CounterAnimation limit={data.topEmojis[0] ? data.topEmojis[0].count : []} height={95} marginTop={4} time={8} /> </span> <span className="pt-3">veces</span></p>
                 </div>
@@ -52,7 +52,7 @@ function TopEmojisItem(){
                         </thead>
                         {top.map((item) => (
                             <tr className="text-xl">
-                                <td className="text-orange-500">#{item+1}</td>
+                                <td className="text-red-500">#{item+1}</td>
                                 <th className="px-6 py-4">
                                     <span className={style.OtherEmoji}><Twemoji svg text={data.topEmojis[item] ? data.topEmojis[item].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                                 </th>
