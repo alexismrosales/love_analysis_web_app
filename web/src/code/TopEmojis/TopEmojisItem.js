@@ -14,7 +14,7 @@ function TopEmojisItem(){
     const data = TopEmojisData();
     return (
         <div className={style.TopEmojis}>
-            <p className={style.Title}>TOP 3 EMOJIS</p>
+            <p className={style.Title}>TOP EMOJIS</p>
             <br/>
             <p className={style.Text}>{data.main_text[0]}</p>
             <br/>
