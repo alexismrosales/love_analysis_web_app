@@ -90,11 +90,8 @@
 .divTable
 {
     @apply
-    flex
-    justify-center
-    overflow-x-auto
-    shadow-md
-    sm:rounded-lg
+    flex items-center justify-center
+
 }
 .Table{
  

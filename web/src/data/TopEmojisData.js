@@ -26,7 +26,14 @@ function TopEmojisData(){
 
     //Returning data
     return {
-        topEmojis: topEmojis ?  Object.values(topEmojis) : []
+        topEmojis: topEmojis ?  Object.values(topEmojis) : [],
+        main_text : [
+            "Estos es el Top 10 de los emojis que más usamos, las veces que los usamos, y el lugar donde los usamos."
+        ],
+        questions : [
+            "¿Qué crees que dicen de nosotros?",
+            "¿Y qué otros emojis usamos más?"
+        ]
     }
 }
 export default TopEmojisData;

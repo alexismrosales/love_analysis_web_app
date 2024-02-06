@@ -16,9 +16,9 @@ function TopEmojisItem(){
         <div className={style.TopEmojis}>
             <p className={style.Title}>TOP 3 EMOJIS</p>
             <br/>
-            <p className={style.Text}>Estos es el Top 10 de los emojis que más usamos, las veces que los usamos, y el lugar donde los usamos.</p>
+            <p className={style.Text}>{data.main_text[0]}</p>
             <br/>
-            <p className={style.TextQ}>¿Qué crees que dicen de nosotros?</p>
+            <p className={style.TextQ}>{data.questions[0]}</p>
             <div className={style.EmojisContainer}>
                 <div className={style.TopTwo}>  
                     <span className={style.TopTitle}>#2</span><br/>
@@ -39,7 +39,8 @@ function TopEmojisItem(){
                     <p className={style.TopText}>Se uso <br/><span className={style.Counter1}> <br/><CounterAnimation limit={data.topEmojis[2] ? data.topEmojis[2].count : []} height={95} marginTop={4} time={5} /> </span> <span className="pt-3">veces</span></p>
                 </div>
             </div>
-            <div className={style.divTable}>   
+            <p className={style.TextQ}>{data.questions[1]}</p> <br/>
+            <div className={style.divTable}> 
                     <table className={style.Table}>
                         <thead className={style.TableHead}>
                             <tr>
@@ -51,7 +52,7 @@ function TopEmojisItem(){
                         </thead>
                         {top.map((item) => (
                             <tr className="text-xl">
-                                <td>#{item+1}</td>
+                                <td className="text-orange-500">#{item+1}</td>
                                 <th className="px-6 py-4">
                                     <span className={style.OtherEmoji}><Twemoji text={data.topEmojis[item] ? data.topEmojis[item].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                                 </th>
