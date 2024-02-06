@@ -1,7 +1,6 @@
 
-import React,{ useEffect } from "react";
+import React from "react";
 import Emoji, { Twemoji } from "react-emoji-render";
-import classNames from "classnames";
 
 import TopEmojisData from "../../data/TopEmojisData";
 
