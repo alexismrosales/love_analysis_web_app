@@ -54,7 +54,7 @@ function TopEmojisItem(){
                             <tr className="text-xl">
                                 <td className="text-orange-500">#{item+1}</td>
                                 <th className="px-6 py-4">
-                                    <span className={style.OtherEmoji}><Twemoji text={data.topEmojis[item] ? data.topEmojis[item].emoji : []} onlyEmojiClassName="emoji-span" /></span>
+                                    <span className={style.OtherEmoji}><Twemoji svg text={data.topEmojis[item] ? data.topEmojis[item].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                                 </th>
                                 <td>
                                     <span>{data.topEmojis[item] ? data.topEmojis[item].count : []}</span>
