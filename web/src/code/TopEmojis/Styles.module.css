@@ -67,3 +67,27 @@
     font-bold
     text-center 
 }
+.divTable
+{
+    @apply
+    flex
+    justify-center
+    overflow-x-auto
+    shadow-md
+    sm:rounded-lg
+}
+.Table{
+ 
+    @apply
+    text-sm
+    text-center rtl:text-right text-gray-100
+    divide-y divide-gray-100 
+    
+}
+.TableHead{
+    @apply
+    text-xl text-gray-100 uppercase 
+}
+.OtherEmoji{
+    
+}
