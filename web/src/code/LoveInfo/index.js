@@ -4,7 +4,7 @@ import LoveInfoItem from './LoveInfoItem';
 function LoveInfo() {
   return (
     <section id="LoveInfo">
-      <LoveInfoItem />
+        <LoveInfoItem />
     </section>
   )
 }
