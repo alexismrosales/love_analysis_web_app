@@ -7,6 +7,18 @@
     grid
     grid-cols-2;
 }
+.DateImgDiv{
+    @apply 
+    col-span-2
+    md:col-span-1
+    flex
+    justify-center
+    items-center
+}
+.DateImg{
+    width: 20rem;
+    height: 20rem;
+}
 /*Who Talk More*/
 .WTMInfo{
     @apply

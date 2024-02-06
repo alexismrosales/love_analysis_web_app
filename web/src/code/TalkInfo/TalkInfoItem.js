@@ -1,20 +1,20 @@
 import React from "react";
 
-import style from "./Styles.module.css";
+import Style from "./Styles.module.css";
 
 function TalkInfoItem()
 {
     return(
         <div>
-            <div className={style.DateInfo}>
-                <div>img</div>
+            <div className={Style.DateInfo}>
+                <div className={Style.DateImgDiv}><img src={process.env.PUBLIC_URL+"/img/hourglass.png"} className={Style.DateImg}/></div>
                 <div>text</div>
             </div>
-            <div className={style.WTMInfo}>
+            <div className={Style.WTMInfo}>
                 <div>text</div>
                 <div>img</div>
             </div>
-            <div className={style.WMInfo}>
+            <div className={Style.WMInfo}>
                 <div>img</div>
                 <div>text</div>
             </div>
