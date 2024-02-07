@@ -19,7 +19,7 @@ function LoveInfoData()
 
     const [cuteWords, setCuteWords] = useState(cute_words);
     useEffect(() => {
-        // Actualizar el estado cuteWords con el valor de data.cute_words
+        // Update the state
         setCuteWords(data.cute_words);
       }, [data]);
 

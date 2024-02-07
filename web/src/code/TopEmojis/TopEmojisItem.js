@@ -24,19 +24,19 @@ function TopEmojisItem(){
                     <span className={style.TopTitle}>#2</span><br/>
                     <span className={style.TopEmoji}><Twemoji svg text={data.topEmojis[1] ? data.topEmojis[1].emoji : []} onlyEmojiClassName="emoji-span"/></span>
                     
-                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}> <br/><CounterAnimation limit={data.topEmojis[1] ? data.topEmojis[1].count : []} height={95} marginTop={4} time={10} /> </span> <span className="pt-3">veces</span></p>
+                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}><CounterAnimation limit={data.topEmojis[1] ? data.topEmojis[1].count : []} time={10} /> </span> <br/> <span className="pt-3">veces</span></p>
                 </div>
                 <div className={style.TopOne}>
                     <span className={style.TopTitle}>#1</span><br/>
                     <span className={style.TopEmojiFirst}> <Twemoji svg text={data.topEmojis[0] ? data.topEmojis[0].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                      
-                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}> <br/><CounterAnimation limit={data.topEmojis[0] ? data.topEmojis[0].count : []} height={95} marginTop={4} time={8} /> </span> <span className="pt-3">veces</span></p>
+                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}><CounterAnimation limit={data.topEmojis[0] ? data.topEmojis[0].count : []} time={8} /> </span> <br/> <span className="pt-3">veces</span></p>
                 </div>
                 <div className={style.TopThree}>
                     <span className={style.TopTitle}>#3</span> <br/>
                     <span className={style.TopEmoji}><Twemoji svg text={data.topEmojis[2] ? data.topEmojis[2].emoji : []} onlyEmojiClassName="emoji-span" /></span>
                     
-                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}> <br/><CounterAnimation limit={data.topEmojis[2] ? data.topEmojis[2].count : []} height={95} marginTop={4} time={5} /> </span> <span className="pt-3">veces</span></p>
+                    <p className={style.TopText}>Se usó <br/><span className={style.Counter1}> <CounterAnimation limit={data.topEmojis[2] ? data.topEmojis[2].count : []} time={5} /> </span> <br/> <span className="pt-3">veces</span></p>
                 </div>
             </div>
             <p className={style.TextQ}>{data.questions[1]}</p> <br/>

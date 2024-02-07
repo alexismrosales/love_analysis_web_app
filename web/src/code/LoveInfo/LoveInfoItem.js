@@ -9,14 +9,13 @@ import style from "./Styles.module.css";
 
 
 
-
 function LoveInfoItem(){
     const data = LoveInfoData();
     return (
         <div className={style.LoveInfo}>
              <div className={style.Animation}> 
                 <div className={style.SVG_bg}>
-                    <p className={style.MainTitle}>Alredor de  <span className={style.Counter}><CounterAnimation limit={data.cuteWords[2] ? data.cuteWords[2][1] : []} /></span>veces nos hemos <br/> dicho que nos <br/> amamos</p>
+                    <p className={style.MainTitle}>Alrededor de <br/> <span className={style.Counter}><CounterAnimation limit={data.cuteWords[2] ? data.cuteWords[2][1] : []} /></span><br/>veces nos hemos <br/> dicho que nos <br/> amamos</p>
                 </div>   
             </div>
             <div className={style.Info}>
