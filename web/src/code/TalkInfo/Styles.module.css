@@ -14,10 +14,16 @@
     flex
     justify-center
     items-center
+    pt-[5rem]
+    pb-[5rem]
+    md:pt-0
+    md:pb-0
 }
 .DateImg{
-    width: 20rem;
-    height: 20rem;
+    @apply
+    h-[20rem]
+    w-[20rem];
+   
 }
 /*Who Talk More*/
 .WTMInfo{
