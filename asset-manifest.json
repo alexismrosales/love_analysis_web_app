@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/love_analysis_web_app/static/css/main.87380e6b.css",
-    "main.js": "/love_analysis_web_app/static/js/main.d0c291ab.js",
+    "main.css": "/love_analysis_web_app/static/css/main.ba12c751.css",
+    "main.js": "/love_analysis_web_app/static/js/main.c8d6751e.js",
     "index.html": "/love_analysis_web_app/index.html",
-    "main.87380e6b.css.map": "/love_analysis_web_app/static/css/main.87380e6b.css.map",
-    "main.d0c291ab.js.map": "/love_analysis_web_app/static/js/main.d0c291ab.js.map"
+    "main.ba12c751.css.map": "/love_analysis_web_app/static/css/main.ba12c751.css.map",
+    "main.c8d6751e.js.map": "/love_analysis_web_app/static/js/main.c8d6751e.js.map"
   },
   "entrypoints": [
-    "static/css/main.87380e6b.css",
-    "static/js/main.d0c291ab.js"
+    "static/css/main.ba12c751.css",
+    "static/js/main.c8d6751e.js"
   ]
 }
