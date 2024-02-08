@@ -29,7 +29,7 @@
 .WTMInfo{
     @apply
     bg-orange-200
-    md:h-[50vh]
+    md:h-[60vh]
     h-auto
     w-auto
     grid
