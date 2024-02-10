@@ -59,7 +59,7 @@
 .SubTitle{
     @apply
     text-center
-    pt-[4rem]
+    pt-[3rem]
     pb-[4rem]
     text-rose-500
     text-4xl
@@ -75,7 +75,6 @@
 .KeyWords
 {
     @apply
-   
     text-rose-500;
     font-family: 'Diphylleia', serif;
 }

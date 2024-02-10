@@ -115,3 +115,8 @@
     @apply
     text-[4rem]
 }
+.emoji_span {
+    margin: 0;
+  display: inline-block;
+
+}

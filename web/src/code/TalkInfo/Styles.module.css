@@ -1,16 +1,17 @@
 .DateInfo{
     @apply
-    bg-yellow-200
+   
     md:h-[50vh]
-    h-auto
+    h-[130vh]
     w-auto
     grid
-    grid-cols-2;
+    grid-cols-3;
 }
 .DateImgDiv{
     @apply 
-    col-span-2
+    col-span-3
     md:col-span-1
+    bg-yellow-200
     flex
     justify-center
     items-center
@@ -29,11 +30,9 @@
 .WTMInfo{
     @apply
     bg-orange-200
-    md:h-[60vh]
+    md:h-[50vh]
     h-auto
     w-auto
-    grid
-    grid-cols-2;
 }
 /*Words Mean*/
 .WMInfo{
@@ -44,4 +43,90 @@
     w-auto
     grid
     grid-cols-2;
+}
+.DateInfoData{
+    @apply
+    md:col-span-2
+    col-span-3
+}
+/*General props*/
+.Accent{
+    @apply
+    md:text-5xl
+    text-6xl
+}
+.emoji_span {
+    margin: 0;
+  display: inline-block;
+
+}
+/*First section*/
+.TitleDate{
+    @apply
+    md:pt-[4rem]
+    pt-[4rem]
+    text-7xl
+    md:text-6xl
+    text-amber-800
+    text-center
+    uppercase
+    font-bold;
+    font-family: 'Single Day', cursive; 
+}
+.ListL{
+    @apply
+    pt-[3rem]
+    md:pl-5
+    pl-3
+    md:pr-5
+    pr-3
+    text-center
+    text-xl
+    md:text-lg
+    font-bold
+    text-black
+}
+.ListR{
+    @apply
+    pt-[3rem]
+    md:pl-5
+    pl-3
+    md:pr-5
+    pr-3
+    text-center
+    text-xl
+    md:text-lg
+    font-bold
+    text-black
+}
+/*Second section*/
+.TitleWTM{
+    @apply
+    pt-[4rem]
+    text-7xl
+    md:text-6xl
+    text-orange-700
+    text-center
+    uppercase
+    font-bold;
+    font-family: 'Single Day', cursive; 
+}
+.TextWTM{
+    @apply
+    text-2xl
+    font-bold
+    text-center
+    leading-loose 
+}
+.Emitter1{
+    @apply
+    text-left
+}
+.Emmiter2{
+    @apply
+    text-left
+}
+.VS{
+    @apply
+    text-9xl
 }
