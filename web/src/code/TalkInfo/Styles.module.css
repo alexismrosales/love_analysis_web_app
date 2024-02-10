@@ -1,6 +1,5 @@
 .DateInfo{
     @apply
-   
     md:h-[50vh]
     h-[130vh]
     w-auto
@@ -23,14 +22,15 @@
 .DateImg{
     @apply
     h-[20rem]
-    w-[20rem];
+    w-[20rem]
+    drop-shadow-lg;
    
 }
 /*Who Talk More*/
 .WTMInfo{
     @apply
     bg-orange-200
-    md:h-[50vh]
+    
     h-auto
     w-auto
 }
@@ -67,11 +67,19 @@
     pt-[4rem]
     text-7xl
     md:text-6xl
-    text-amber-800
+    text-yellow-500
     text-center
     uppercase
-    font-bold;
+    font-bold
+    drop-shadow-lg;
     font-family: 'Single Day', cursive; 
+}
+.DateList{
+    @apply
+    text-lg
+    text-2xl
+    md:text-xl;
+    font-family: 'Diphylleia', serif;
 }
 .ListL{
     @apply
@@ -81,8 +89,6 @@
     md:pr-5
     pr-3
     text-center
-    text-xl
-    md:text-lg
     font-bold
     text-black
 }
@@ -94,8 +100,6 @@
     md:pr-5
     pr-3
     text-center
-    text-xl
-    md:text-lg
     font-bold
     text-black
 }
@@ -103,30 +107,63 @@
 .TitleWTM{
     @apply
     pt-[4rem]
+    pl-[2rem]
+    pr-[2rem]
     text-7xl
     md:text-6xl
     text-orange-700
     text-center
     uppercase
-    font-bold;
+    font-bold
+    drop-shadow-lg;
     font-family: 'Single Day', cursive; 
+}
+.EmojiTitle{
+    @apply
+    text-8xl
+    text-center
+    drop-shadow-lg;
+}
+.WTMGrid{
+    @apply
+    grid
+    grid-cols-3
+    text-center
+    pt-[5rem]
+    pb-[3rem]
 }
 .TextWTM{
     @apply
-    text-2xl
+    text-3xl
+    md:text-2xl
     font-bold
     text-center
-    leading-loose 
+    leading-loose;
+    font-family: 'Diphylleia', serif;
 }
-.Emitter1{
+.Emmiter1{
     @apply
-    text-left
+    text-orange-700
+    text-left;
 }
-.Emmiter2{
-    @apply
-    text-left
-}
+
 .VS{
     @apply
-    text-9xl
+    text-[160px]
+    font-extrabold
+    text-orange-700
+    drop-shadow-lg
+    col-span-3
+    md:col-span-1
+    md:-mt-[5rem];
+    font-family: 'Single Day', cursive; 
+}
+.WinnerText{
+    @apply
+    text-4xl
+    text-center
+    font-extrabold
+    text-orange-700
+    drop-shadow-lg;
+    font-family: 'Single Day', cursive;
 }
