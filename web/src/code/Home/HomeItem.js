@@ -44,8 +44,8 @@ function HomeItem(){
                         <li className={style.Item}><a href="#LoveInfo" className="scroll-link">{data.content[0]}</a></li>
                         <li className={style.Item}><a href="#TopEmojis" className="scroll-link">{data.content[1]}</a></li>
                         <li className={style.Item}><a href="#TalkInfo" className="scroll-link">{data.content[2]}</a></li>
-                        <li className={style.Item}>{data.content[3]}</li>
-                    </ul>
+                        <li className={style.Item}><a href="#LastWords" className="scroll-link">{data.content[3]}</a></li>
+                    </ul> 
                 </div>
             </div>
         </div>

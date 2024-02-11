@@ -3,7 +3,7 @@ import Home from '../Home';
 import LoveInfo from '../LoveInfo';
 import TopEmojis from '../TopEmojis';
 import TalkInfo from '../TalkInfo';
-
+import LastWords from '../LastWords';
 import  './Styles.css';
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <LoveInfo/>
       <TopEmojis/>
       <TalkInfo/>
+      {/*<LastWords/>*/ }
     </main>
   ]);
 }

@@ -1,0 +1,11 @@
+.LastWordItem{
+    @apply
+    bg-gray-100
+    h-[40rem]
+    w-auto
+    items-center
+    bg-gradient-to-r
+    from-pink-600
+    to-rose-800
+    overflow-hidden
+}
