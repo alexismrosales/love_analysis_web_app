@@ -1,11 +1,109 @@
 .LastWordItem{
     @apply
     bg-gray-100
-    h-[40rem]
+    h-auto
     w-auto
-    items-center
     bg-gradient-to-r
     from-pink-600
     to-rose-800
-    overflow-hidden
+}
+.MainTitle{
+    @apply
+    pt-[3rem]
+    text-center
+    text-8xl
+    text-gray-100
+    font-bold
+    uppercase;
+    font-family: 'Single Day', cursive;
+}
+.Subtext{
+    @apply
+    text-2xl
+    md:text-xl
+    text-center
+    text-gray-100
+    font-bold
+    md:px-0
+    px-[2rem]
+    pt-[3rem]
+    pb-[6rem];
+    font-family: 'Diphylleia', serif;
+}
+.emoji_span {
+    margin: 0;
+    font-size: 3rem;
+    display: inline-block;
+
+}
+.Pics{
+    @apply
+    block
+    md:flex
+    md:justify-center
+}
+.PicSpanR{
+    @apply
+    flex
+    justify-end
+    md:pt-[3rem]
+    -mt-[4rem]
+}
+.PicSpanL{
+    @apply
+    flex
+    md:pt-0
+    -mt-[4rem]
+}
+.Pic1{
+    @apply
+    rounded-[12rem]
+    h-[18rem]
+    w-[15rem]
+    justify-end
+}
+.Pic2{
+    @apply
+    rounded-[12rem]
+    h-[18rem]
+    w-[15rem]
+}
+.Pic3{
+    @apply
+    rounded-[12rem]
+    h-[18rem]
+    w-[15rem]
+}
+.Pic4{
+    @apply
+    rounded-[12rem]
+    h-[18rem]
+    w-[15rem]
+}
+.Title{
+    @apply
+    text-7xl
+    text-rose-500
+    font-bold
+    text-center
+    pt-[2rem]
+    drop-shadow-xl
+    -mt-[3rem];
+    font-family: 'Single Day', cursive;
+}
+.Heartimg
+{
+    @apply
+    h-[8rem]
+    w-[8rem]
+    drop-shadow-xl
+}
+.Footer{
+    @apply
+    pt-[5rem]
+    text-left
+    text-gray-100
+    font-bold
+    pt-[2rem]
+    
 }

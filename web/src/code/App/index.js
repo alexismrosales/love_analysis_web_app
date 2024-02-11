@@ -14,7 +14,7 @@ function App() {
       <LoveInfo/>
       <TopEmojis/>
       <TalkInfo/>
-      {/*<LastWords/>*/ }
+      <LastWords/>
     </main>
   ]);
 }
