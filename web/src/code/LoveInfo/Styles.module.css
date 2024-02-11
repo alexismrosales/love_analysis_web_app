@@ -68,9 +68,11 @@
 }
 .List{
     @apply
-    text-lg
-    lg:text-xl
+    text-xl
+    md:text-2xl
     drop-shadow-xl
+    font-bold;
+    font-family: 'Diphylleia', serif;
 }
 .KeyWords
 {

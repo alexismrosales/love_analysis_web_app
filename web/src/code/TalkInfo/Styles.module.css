@@ -44,7 +44,7 @@
 .WMInfo{
     @apply
     md:h-[50vh]
-    h-auto
+    h-[120vh]
     w-auto
     grid
     grid-cols-3;
@@ -183,6 +183,8 @@
     @apply
     col-span-3
     md:col-span-2
+    order-2
+    md:order-1
 }
 .WMData
 {
@@ -199,6 +201,7 @@
     col-span-3
     md:col-span-1
     bg-blue-300
+    md:order-1
     flex items-center justify-center
 }
 .WMImage{

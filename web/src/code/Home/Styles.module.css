@@ -51,7 +51,8 @@
     md:col-start-2
     md:col-span-4
     col-start-1
-    col-span-9
+    col-span-9;
+    font-family: 'Diphylleia', serif;
 }
 .Text{
     @apply
