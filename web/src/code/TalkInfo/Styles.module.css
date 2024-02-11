@@ -1,3 +1,10 @@
+/*General props*/
+.emoji_span {
+    margin: 0;
+  display: inline-block;
+
+}
+
 .DateInfo{
     @apply
     md:h-[50vh]
@@ -30,36 +37,24 @@
 .WTMInfo{
     @apply
     bg-orange-200
-    
     h-auto
     w-auto
 }
 /*Words Mean*/
 .WMInfo{
     @apply
-    bg-blue-300
     md:h-[50vh]
     h-auto
     w-auto
     grid
-    grid-cols-2;
+    grid-cols-3;
 }
 .DateInfoData{
     @apply
     md:col-span-2
     col-span-3
 }
-/*General props*/
-.Accent{
-    @apply
-    md:text-5xl
-    text-6xl
-}
-.emoji_span {
-    margin: 0;
-  display: inline-block;
 
-}
 /*First section*/
 .TitleDate{
     @apply
@@ -78,7 +73,8 @@
     @apply
     text-lg
     text-2xl
-    md:text-xl;
+    md:text-xl
+    font-bold;
     font-family: 'Diphylleia', serif;
 }
 .ListL{
@@ -166,4 +162,48 @@
     text-orange-700
     drop-shadow-lg;
     font-family: 'Single Day', cursive;
+}
+/*Third section*/
+.TitleWM{
+    @apply
+    pt-[4rem]
+    pl-[2rem]
+    pr-[2rem]
+    text-7xl
+    md:text-6xl
+    text-blue-700
+    text-center
+    uppercase
+    font-bold
+    drop-shadow-lg;
+    font-family: 'Single Day', cursive; 
+}
+.WMText
+{
+    @apply
+    col-span-3
+    md:col-span-2
+}
+.WMData
+{
+    @apply
+    text-2xl
+    md:text-xl
+    font-bold
+    text-center
+    pt-[3rem];
+    font-family: 'Diphylleia', serif;
+}
+.WMImg{
+    @apply
+    col-span-3
+    md:col-span-1
+    bg-blue-300
+    flex items-center justify-center
+}
+.WMImage{
+    @apply
+    h-[20rem]
+    w-[20rem]
+    drop-shadow-lg
 }

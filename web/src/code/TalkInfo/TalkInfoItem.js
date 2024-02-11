@@ -28,7 +28,7 @@ function TalkInfoItem()
             <div className={Style.DateInfo}>
                 <div className={Style.DateImgDiv}><img src={process.env.PUBLIC_URL+"/img/hourglass.png"} className={Style.DateImg}/></div>
                 <div className={Style.DateInfoData}>
-                    <p className={Style.TitleDate}>¿ Cu<span className={Style.Accent}>á</span>ndo hablamos m<span className={Style.Accent}>á</span>s?</p>
+                    <p className={Style.TitleDate}>¿ Cuando hablamos mas?</p>
                     <ul className={Style.DateList}>
                         <li className={Style.ListL}>¿Sabías que el día en que mas hablamos es el {translatedData?.day}? <Twemoji svg text={'😯'} className={Style.emoji_span}/> </li>
                         <li className={Style.ListR}>Y nuestro el mes donde más hablamos fue en {translatedData?.month} 😳</li>
@@ -37,7 +37,7 @@ function TalkInfoItem()
                 </div>
             </div>
             <div className={Style.WTMInfo}>
-                <p className={Style.TitleWTM}>Y… ¿qui<span className={Style.Accent}>é</span>n habla m<span className={Style.Accent}>á</span>s?</p>
+                <p className={Style.TitleWTM}>Y… ¿quien habla mas?</p>
                 <br/>
                 <p className={Style.EmojiTitle}><Twemoji svg text={'🤔'} className={Style.emoji_span}/></p>
                 <div className={Style.WTMGrid}>
@@ -59,13 +59,14 @@ function TalkInfoItem()
             </div>
             <div className={Style.WMInfo}>
 
-                <div>
-                    <p>
-                        En promedio enviamos {data.variousData[2]? data.variousData[2][1].byDay : ""} mensajes por día. <br/>
-                        Donde tu envías {data.variousData[2]? data.variousData[2][1].Ara : ""} mensajes y yo {data.variousData[2]? data.variousData[2][1]["~Alexis M. Rosales"] : ""} mensajes promedio por día 😎👌.
+                <div className={Style.WMText}>
+                    <h1 className={Style.TitleWM}>Y al dia nos mandamos...</h1>
+                    <p className={Style.WMData}>
+                        Sabías que... en promedio enviamos {data.variousData[2]? data.variousData[2][1].byDay : ""} mensajes por día. <br/> <br/>
+                        Donde tu envías {data.variousData[2]? data.variousData[2][1].Ara : ""} mensajes<br/> y <br/>yo {data.variousData[2]? data.variousData[2][1]["~Alexis M. Rosales"] : ""} mensajes promedio por día.  
                     </p> 
                 </div>
-                <div>img</div>
+                <div className={Style.WMImg}><img src={process.env.PUBLIC_URL+"/img/messages.png"} className={Style.WMImage} /></div>
             </div>
         </div>
     )
