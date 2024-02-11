@@ -26,7 +26,7 @@ function TalkInfoItem()
     return(
         <div>
             <div className={Style.DateInfo}>
-                <div className={Style.DateImgDiv}><img src={process.env.PUBLIC_URL+"/img/hourglass.png"} className={Style.DateImg}/></div>
+                <div className={Style.DateImgDiv}><img src={process.env.PUBLIC_URL+"/img/hourglass.png"} alt="img2" className={Style.DateImg}/></div>
                 <div className={Style.DateInfoData}>
                     <p className={Style.TitleDate}>¿ Cuando hablamos mas?</p>
                     <ul className={Style.DateList}>
@@ -66,7 +66,7 @@ function TalkInfoItem()
                         Donde tu envías {data.variousData[2]? data.variousData[2][1].Ara : ""} mensajes<br/> y <br/>yo {data.variousData[2]? data.variousData[2][1]["~Alexis M. Rosales"] : ""} mensajes promedio por día.  
                     </p> 
                 </div>
-                <div className={Style.WMImg}><img src={process.env.PUBLIC_URL+"/img/messages.png"} className={Style.WMImage} /></div>
+                <div className={Style.WMImg}><img src={process.env.PUBLIC_URL+"/img/messages.png"} alt="img1"className={Style.WMImage} /></div>
             </div>
         </div>
     )
